@@ -22,9 +22,9 @@ layout:
 # David Tsofin
 
 **Backend Engineer & Technical Leader**  
-Bratislava, Slovakia
-[tsofindavid@gmail.com](mailto:tsofindavid@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/best-of-the-best-backend-developer)  
+Bratislava, Slovakia |
+[tsofindavid@gmail.com](mailto:tsofindavid@gmail.com) |
+[LinkedIn](https://www.linkedin.com/in/best-of-the-best-backend-developer) |
 [PDF Version](https://github.com/tsofindavid-personal/cv/raw/main/david-tsofin-cv.pdf)
 
 ---
