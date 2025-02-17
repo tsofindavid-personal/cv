@@ -35,7 +35,7 @@ Bratislava, Slovakia |
 **Backend:** NestJS, Express, Koa, Flask, Socket.io  
 **Cloud:** AWS (Lambda, Batch, S3, EC2, VPC), Docker, Docker Swarm, Podman  
 **Databases:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch  
-**DevOps:** Grafana, Kibana, CI/CD Pipelines  
+**DevOps:** Grafana, Kibana, CI/CD Pipelines
 **Brokers:** RabbitMQ
 **Frontend:** Vue.js, Bootstrap
 
