@@ -96,7 +96,7 @@ Bratislava, Slovakia |
 ## Education  
 
 **Slovak University of Technology**  
-*MSc Applied Informatics* | 2024 - Present  
+*BSc Applied Informatics* | 2024 - Present  
 
 **Belarusian National Technical University**  
 *BSc Information Technologies & Robotics* | 2018 - 2020  
