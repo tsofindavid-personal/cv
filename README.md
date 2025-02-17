@@ -33,7 +33,7 @@ Bratislava, Slovakia |
 
 **Languages:** TypeScript, JavaScript, Python  
 **Backend:** NestJS, Express, Koa, Flask, Socket.io  
-**Cloud:** AWS (Lambda, Batch, S3, EC2, VPC), Docker, Docker Swarm, Podman, Kubernetes  
+**Cloud:** AWS (Lambda, Batch, S3, EC2, VPC), Docker, Docker Swarm, Podman  
 **Databases:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch  
 **DevOps:** Grafana, Kibana, CI/CD Pipelines  
 **Brokers:** RabbitMQ
@@ -82,7 +82,6 @@ Bratislava, Slovakia |
 #### Flight Operations Management System  
 
 - Developed UAV fleet management system for flight logs analysis and inventory control  
-- Automated order processing for drone reconfiguration workflows  
 - Integrated hardware telemetry data with warehouse management modules  
 - **Stack:** ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript
 
