@@ -33,7 +33,7 @@ Bratislava, Slovakia |
 
 **Languages:** TypeScript, JavaScript, Python  
 **Backend:** NestJS, Express, Koa, Flask, Socket.io  
-**Cloud:** AWS (Lambda, Batch, S3, EC2, VPC), Docker, Docker Swarm, Podman  
+**Cloud:** AWS (Lambda, Batch, S3, EC2, VPC, ECS, ALB, RDS), Docker, Docker Swarm, Podman  
 **Databases:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch  
 **DevOps:** Grafana, Kibana, CI/CD Pipelines  
 **Brokers:** RabbitMQ  
@@ -48,18 +48,18 @@ Bratislava, Slovakia |
 #### Code Collaboration Platform *(Tech Lead, Team: 5)*  
 
 - Led development of enterprise-grade code hosting platform with custom version control  
-- **Stack:** NestJS, Vue.js, PostgreSQL, RabbitMQ, AWS (ECS, S3, Batch)  
+- **Stack:** Nest.js, Vue.js, PostgreSQL, AWS, RabbitMQ
 
 #### Salesforce Data Migration Suite *(Backend Engineer, Team: 5)*  
 
 - Built metadata processing system handling 10M+ records/month
 - Migrated legacy systems to AWS reducing infrastructure costs by 35%  
-- **Stack:** Express, MySQL,AWS (ECS, S3, Batch)
+- **Stack:** Nest.js, Vue.js, MySQL, AWS
 
 #### CRM Integration Solutions *(Backend Engineer)*  
 
 - Developed serverless bridge between Salesforce and ServiceNow using AWS Lambda  
-- **Stack:** Node.js, AWS Lambda  
+- **Stack:** Node.js, AWS  
 
 ---
 
@@ -68,7 +68,7 @@ Bratislava, Slovakia |
 #### Real-Time Multiplayer Game  
 
 - Built game server using WebSocket for real-time interactions  
-- **Stack:** Node.js, Socket.io, PostgreSQL  
+- **Stack:** Nest.js, Socket.io, PostgreSQL  
 
 #### E-Commerce Platform  
 
@@ -83,7 +83,7 @@ Bratislava, Slovakia |
 
 - Developed UAV fleet management system for flight logs analysis and inventory control  
 - Integrated hardware telemetry data with warehouse management modules  
-- **Stack:** ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript
+- **Stack:** ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript, Node.js
 
 #### Industrial Automation Software  
 
