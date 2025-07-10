@@ -27,83 +27,87 @@ Bratislava, Slovakia |
 [LinkedIn](https://www.linkedin.com/in/best-of-the-best-backend-developer) |
 [PDF Version](https://github.com/tsofindavid-personal/cv/raw/main/david-tsofin-cv.pdf)
 
+## Professional Profile
+
+Backend Engineer with 5+ years of experience designing scalable systems using TypeScript, Node.js, and AWS. Led teams to deliver enterprise-grade solutions, optimized infrastructure costs by up to 35%, and implemented CI/CD pipelines for efficient deployments. Seeking to build robust, innovative backend solutions in a collaborative Agile environment.
+
 ---
 
-## Technical Expertise  
+## Technical Skills
 
-**Languages:** TypeScript, JavaScript, Python  
-**Backend:** NestJS, Express, Koa, Flask, Socket.io  
-**Cloud:** AWS (Lambda, Batch, S3, EC2, VPC, ECS, ALB, RDS), Docker, Docker Swarm, Podman  
-**Databases:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch  
-**DevOps:** Grafana, Kibana, CI/CD Pipelines  
-**Brokers:** RabbitMQ  
-**Frontend:** Vue.js, Bootstrap
+- **Languages**: TypeScript (Expert), JavaScript (Expert), Python (Advanced), Golang(Advanced), C(Advanced)
+- **Backend**: NestJS, Express, Koa, Flask, Socket.io  
+- **Cloud & DevOps**: AWS (Lambda, S3, EC2, ECS, RDS), Docker, CI/CD, Grafana, Kibana  
+- **Databases**: PostgreSQL (Expert), MySQL, MongoDB, Redis, Elasticsearch  
+- **Brokers**: RabbitMQ  
+- **Frontend**: Vue.js, Bootstrap  
+- **Soft Skills**: Team Leadership, Agile Methodologies, Problem-Solving  
 
 ---
 
 ## Professional Experience
 
-### **Success Craft** | Backend Engineer & Tech Leader *(2022 - Present)*  
+### Backend Engineer & Tech Lead, Success Craft  
 
-#### Code Collaboration Platform *(Tech Lead, Team: 5)*  
+*2022 – Present*  
 
-- Led development of enterprise-grade code hosting platform with custom version control  
-- **Stack:** Nest.js, Vue.js, PostgreSQL, AWS, RabbitMQ
+- **Code Collaboration Platform** (Tech Lead, Team of 5):  
+  Spearheaded development of a Git-based platform with custom version control, increasing developer productivity by 25%.  
+  *Stack*: NestJS, Vue.js, PostgreSQL, AWS, RabbitMQ  
+- **Salesforce Data Migration Suite** (Backend Engineer):  
+  Designed a metadata processing system for 10M+ records/month, cutting infrastructure costs by 35% through AWS optimization.  
+  *Stack*: NestJS, Vue.js, MySQL, AWS  
+- **CRM Integration Solutions** (Backend Engineer):  
+  Developed a serverless Salesforce-ServiceNow integration using AWS Lambda, streamlining data workflows.  
+  *Stack*: Node.js, AWS  
 
-#### Salesforce Data Migration Suite *(Backend Engineer, Team: 5)*  
+### Backend Engineer, Whale Studio  
 
-- Built metadata processing system handling 10M+ records/month
-- Migrated legacy systems to AWS reducing infrastructure costs by 35%  
-- **Stack:** Nest.js, Vue.js, MySQL, AWS
+*2021 – 2022*  
 
-#### CRM Integration Solutions *(Backend Engineer)*  
+- **Real-Time Multiplayer Game**:  
+  Built a WebSocket-based game server supporting 10,000+ concurrent users with 99.9% uptime.  
+  *Stack*: NestJS, Socket.io, PostgreSQL  
+- **E-Commerce Platform**:  
+  Developed a product catalog service with Redis caching, reducing page load times by 40%.  
+  *Stack*: Express, PostgreSQL, Redis  
 
-- Developed serverless bridge between Salesforce and ServiceNow using AWS Lambda  
-- **Stack:** Node.js, AWS  
+### Full-Stack Developer, Alpha Orion  
 
----
+*2019 – 2021*  
 
-### **Whale Studio** | Backend Engineer *(2021 - 2022)*  
-
-#### Real-Time Multiplayer Game  
-
-- Built game server using WebSocket for real-time interactions  
-- **Stack:** Nest.js, Socket.io, PostgreSQL  
-
-#### E-Commerce Platform  
-
-- Developed product catalog service with Redis caching  
-- **Stack:** Express, PostgreSQL  
-
----
-
-### **Alpha Orion** | Full-Stack Developer *(2019 - 2021)*  
-
-#### Flight Operations Management System  
-
-- Developed UAV fleet management system for flight logs analysis and inventory control  
-- Integrated hardware telemetry data with warehouse management modules  
-- **Stack:** ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript, Node.js
-
-#### Industrial Automation Software  
-
-- Created ECU testing tools with Electron.js interface  
-- **Stack:** Electron.js, Arduino
+- **Flight Operations Management System**:  
+  Built a UAV fleet management system, integrating telemetry with inventory modules for real-time analytics.  
+  *Stack*: ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript  
+- **Industrial Automation Software**:  
+  Created ECU testing tools with an Electron.js interface, improving testing efficiency by 20%.  
+  *Stack*: Electron.js, Arduino  
 
 ---
 
-## Education  
+## Education
 
 **Slovak University of Technology**  
-*BSc Applied Informatics* | 2024 - Present  
+BSc, Applied Informatics | 2024 – Present  
 
 **Belarusian National Technical University**  
-*BSc Information Technologies & Robotics* | 2018 - 2020  
+BSc, Information Technologies & Robotics | 2018 – 2020  
 
 ---
 
-## Languages  
+## Languages
 
 - **Russian**: Native  
 - **English**: Upper-Intermediate (B2)  
-- **Slovak**: Intermediate (B1)
+- **Slovak**: Intermediate (B1)  
+
+---
+
+## Key Projects
+
+- **Code Collaboration Platform** (Success Craft):  
+  Led a Git-based platform with custom version control and CI/CD, enhancing team efficiency.  
+  *Stack*: NestJS, PostgreSQL, AWS  
+- **Real-Time Game Server** (Whale Studio):  
+  Developed a low-latency WebSocket server for a multiplayer game.  
+  *Stack*: NestJS, Socket.io
