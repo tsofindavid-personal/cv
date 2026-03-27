@@ -13,22 +13,20 @@ jobs:
   build-pdf:
     runs-on: ubuntu-latest
 
-    container:
-      image: pandoc/latex:latest-ubuntu
-
     steps:
-      - name: Install Git
-        run: |
-          apt-get update
-          apt-get install -y git
-
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex fonts-liberation
 
       - name: Build PDF
         run: |
           pandoc README.md -o david-tsofin-cv.pdf \
           --pdf-engine=xelatex \
+          -V mainfont="Liberation Sans" \
           -V geometry:margin=0.8in \
           -V fontsize=11pt \
           -V colorlinks=true
