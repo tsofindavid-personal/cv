@@ -17,6 +17,11 @@ jobs:
       image: pandoc/latex:latest
 
     steps:
+      - name: Install Git
+        run: |
+          apt-get update
+          apt-get install -y git
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
