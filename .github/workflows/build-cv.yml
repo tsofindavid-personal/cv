@@ -13,14 +13,12 @@ jobs:
   build-pdf:
     runs-on: ubuntu-latest
 
+    container:
+      image: pandoc/latex:latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Install Pandoc and LaTeX
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex fonts-dejavu
 
       - name: Build PDF
         run: |
@@ -36,7 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
           git add david-tsofin-cv.pdf
-          git commit -m "Update CV PDF"
+          git commit -m "Update CV PDF" || echo "No changes"
           git push
