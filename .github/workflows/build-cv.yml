@@ -24,7 +24,6 @@ jobs:
         run: |
           pandoc README.md -o david-tsofin-cv.pdf \
           --pdf-engine=xelatex \
-          -V mainfont="DejaVu Sans" \
           -V geometry:margin=0.8in \
           -V fontsize=11pt \
           -V colorlinks=true
