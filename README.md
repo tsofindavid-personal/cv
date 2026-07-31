@@ -20,78 +20,95 @@ layout:
 ---
 
 # David Tsofin
+**Senior Backend Engineer | Technical Lead**
 
-**Backend Engineer & Technical Leader**
-
-Bratislava, Slovakia | <tsofindavid@gmail.com> | [LinkedIn](https://www.linkedin.com/in/tsofindavid/) | [PDF Version](https://github.com/tsofindavid-personal/cv/raw/main/david-tsofin-cv.pdf)
+Bratislava, Slovakia (EU work permit, contracting via own entity) | tsofindavid@gmail.com | [linkedin.com/in/tsofindavid](https://www.linkedin.com/in/tsofindavid/)
 
 ---
 
-## Professional Profile
+## Professional Summary
 
-Backend Engineer and Tech Lead with 5+ years of experience designing and scaling distributed systems. Led engineering teams, owned architecture decisions, and delivered production systems in high-load, enterprise environments. Experienced in cross-team technical collaboration with large enterprise clients.
+Backend engineer and technical lead with 6+ years building distributed systems for enterprise B2B SaaS, primarily on Node.js/TypeScript. Currently technical lead for the backend of an enterprise Salesforce DevOps platform, owning architecture, API design, data consistency and production reliability for a product used by an enterprise client base migrating from a legacy solution. Act as the technical point of contact for large enterprise clients, including custom architecture work for a Fortune 500 account. Comfortable across the stack — from system design and code review to hands-on infrastructure (Docker, AWS, observability).
 
 ---
 
 ## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Python, Go, Java
-- **Backend:** NestJS, Express, Koa, Flask, Socket.io
-- **Cloud & DevOps:** AWS (Lambda, ECS, S3, RDS), Docker, CI/CD, Grafana
-- **Databases:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
-- **Messaging:** RabbitMQ
+**Languages:** TypeScript, JavaScript, Go, Java, Python, C#, SQL
+**Backend & Architecture:** Node.js, NestJS, Express, Koa, Spring Boot, Flask, ASP.NET Core, REST API design, microservices, event-driven architecture, gRPC, distributed systems, system design
+**Databases & Storage:** PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Amazon S3, Qdrant, pgvector
+**Messaging:** RabbitMQ, gRPC, asynchronous/event-driven processing
+**Cloud & Infra:** AWS (Lambda, ECS, S3, RDS), Docker & Docker Compose (daily), Kubernetes (working knowledge), Terraform (working knowledge)
+**Observability:** Prometheus, Grafana, ELK stack
+**Security & Identity:** OAuth2, OIDC, SAML (integrated), authentication/authorization, access control
+**Salesforce Ecosystem:** SOQL, Apex, Metadata API, sfdx (working knowledge — architectural level)
+**Practices:** technical leadership, system design, code review, mentoring, performance review, production incident response/on-call, client-facing technical consulting, presales technical calls
 
 ---
 
-## Experience
+## Professional Experience
 
-### Success Craft — Backend Engineer & Tech Lead
+### Success Craft — Backend Engineer → Technical Lead
+*Feb 2022 – Present | Remote (B2B contract)*
 
-*2022 – Present*
+Enterprise Salesforce DevOps platform (B2B SaaS) — a Git-like release and change management tool for Salesforce development. ~100-person company, ~50 engineers; owned technical quality for a product team of ~30, including ~15 backend engineers.
 
-- Led backend development and architecture for a Git-based collaboration platform
-- Owned system architecture and infrastructure decisions across the full stack
-- Drove enterprise client integrations — acted as the primary technical liaison between internal engineering and external enterprise engineering teams, ensuring successful onboarding and custom environment adaptation
-- Implemented serverless integrations between enterprise systems (Salesforce ↔ ServiceNow)
-- Maintained system reliability as one of the few engineers with full architectural knowledge; responded to critical production incidents including out-of-hours
+- Joined as a backend engineer and grew into technical lead of a ~30-person product team (~15 backend engineers), owning architecture, technical direction, design and code review, and delivery
+- As a backend engineer, designed the core change-tracking storage system: a Git-like model with structured metadata in PostgreSQL and client data in Amazon S3, processing hundreds of GB daily
+- As technical lead, drove the architecture and technical execution of a ~2-year migration moving several hundred enterprise clients from a native DevOps product onto the new cloud platform
+- Designed and shipped the public REST API and integration layer connecting the platform to Salesforce and ServiceNow ecosystems
+- Built and operated the platform's microservices architecture on AWS (Lambda, ECS, S3, RDS) with RabbitMQ for asynchronous processing
+- Designed and built AWS infrastructure emulating a Fortune 500 client's private network to meet their security requirements, acting as lead technical contact for the engagement
+- Serve as technical point of contact for enterprise clients: presales technical calls, custom architecture and platform adaptation for large accounts
+- Grew 3 engineers into fully independent contributors; conduct regular performance reviews
+- First responder for production incidents; set up and maintain observability (Prometheus, Grafana, ELK)
+- Integrated OAuth2/OIDC/SAML for enterprise authentication requirements
 
-**Stack:** NestJS, PostgreSQL, MySQL, AWS (Lambda, ECS, S3, RDS), RabbitMQ
-
----
+**Stack:** Node.js, NestJS, TypeScript, PostgreSQL, MySQL, AWS (Lambda, ECS, S3, RDS), RabbitMQ, Docker, Kubernetes, Terraform, Prometheus, Grafana, ELK
 
 ### Whale Studio — Backend Engineer
+*Jun 2021 – Feb 2022*
 
-*2021 – 2022*
+High-traffic e-commerce and real-time multiplayer gaming backends.
 
-- Engineered real-time multiplayer backend using WebSockets, supporting concurrent user sessions at scale
-- Optimised caching strategies and backend performance for high-traffic e-commerce systems
-- Built and maintained scalable backend services with a focus on reliability and throughput
+- Built a real-time multiplayer backend on WebSockets (Socket.io) handling concurrent user sessions at scale
+- Reduced latency and improved throughput on high-traffic e-commerce systems through Redis caching strategies and PostgreSQL query optimization
 
 **Stack:** NestJS, Socket.io, PostgreSQL, Redis
 
+### Alpha Orion — Full-Stack Developer
+*Sep 2019 – Jun 2021*
+
+Software for unmanned systems and industrial hardware testing.
+
+- Built backend systems for a UAV fleet management platform (fleet state, telemetry, mission data)
+- Developed full-stack tooling for industrial hardware testing across the whole stack: backend services, an Electron.js desktop client, and the embedded (Arduino) layer
+- Applied a mechanical engineering background to hardware-software integration work
+
+**Stack:** ASP.NET Core, C#, PostgreSQL, RabbitMQ, JavaScript, Electron.js, Arduino
+
 ---
 
-### Alpha Orion — Full-Stack Developer
+## Projects
 
-*2019 – 2021*
+**ReplaySense AI** (replaysenseai.com) — Go, React
+Designed, built and shipped a live SaaS product solo in ~4 weeks: an AI agent that automates Instagram DMs, learning an account's communication style from posts and conversation history. Running in production with free and paid tiers.
 
-- Developed backend systems for a UAV fleet management platform
-- Built tooling for industrial hardware testing and hardware-software integration
-- Worked across backend, frontend, and embedded layers
+**Legal Document RAG Platform** — Java, Spring Boot
+End-to-end Retrieval-Augmented Generation system for legal professionals: ingestion pipeline, vector search (Qdrant, pgvector), LLM integration, REST API, Vue.js frontend. Confidentiality and access control designed in from day one.
 
-**Stack:** ASP.NET Core, PostgreSQL, RabbitMQ, JavaScript, Electron.js, Arduino
+**AI Document Automation for Tender Submissions** (Freelance) — Node.js
+AI pipeline turning raw client data into ready-to-submit tender documents, with prompt engineering for deterministic, correctly structured output on messy real-world input.
 
 ---
 
 ## Education
 
-**Slovak University of Technology** — BSc Applied Informatics *(2024 – Present)*
-**Belarusian National Technical University** — IT & Robotics *(2018 – 2020)*
+Slovak University of Technology, Bratislava — BSc, Applied Informatics *(2024 – Present)*
+Belarusian National Technical University — IT and Robotics *(2018 – 2020)*
 
 ---
 
 ## Languages
 
-- Russian — Native
-- English — B2
-- Slovak — B1
+English — Professional working proficiency | Slovak — B1 | Russian — Native
