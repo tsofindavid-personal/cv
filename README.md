@@ -22,9 +22,7 @@ layout:
 # David Tsofin
 **Senior Backend Engineer | Technical Lead**
 
-Bratislava, Slovakia (EU work permit, contracting via own entity) | [tsofindavid@gmail.com](mailto:tsofindavid@gmail.com) | [linkedin](https://www.linkedin.com/in/tsofindavid/)
-
-[PDF Version](https://github.com/tsofindavid-personal/cv/raw/main/david-tsofin-cv.pdf)
+Bratislava, Slovakia (EU work permit, contracting via own entity) | [tsofindavid@gmail.com](mailto:tsofindavid@gmail.com) | [linkedin](https://www.linkedin.com/in/tsofindavid/) | [PDF Version](https://github.com/tsofindavid-personal/cv/raw/main/david-tsofin-cv.pdf)
 
 ---
 
