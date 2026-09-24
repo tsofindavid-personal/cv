@@ -60,7 +60,7 @@ Enterprise Salesforce DevOps platform (B2B SaaS) — Git-like release and change
 - Designed the core change-tracking storage system: a Git-like model with structured metadata in PostgreSQL and client data in Amazon S3, processing hundreds of GB daily
 - Drove the architecture and technical execution of a ~2-year migration moving several hundred enterprise clients from a native DevOps product onto the new cloud platform
 - Designed and shipped the public REST API and integration layer connecting the platform to Salesforce and ServiceNow ecosystems
-- Designed and built an AI integration layer over the platform's existing services without modifying them: MCP server with full API coverage, task-level composite tools (e.g. [example task]) orchestrating multi-step service calls, embedded business rules and pre-call validation, enabling AI agents to operate the platform safely and predictably
+- Designed and built an AI integration layer over the platform's existing services without modifying them: MCP server with full API coverage, task-level composite tools orchestrating multi-step service calls, embedded business rules and pre-call validation, enabling AI agents to operate the platform safely and predictably
 - Built and operated the platform's microservices architecture on AWS (Lambda, ECS, S3, RDS) with RabbitMQ for asynchronous processing
 - Designed and built AWS infrastructure emulating a Fortune 500 client's private network to meet their security requirements, acting as lead technical contact for the engagement
 - Serve as technical point of contact for enterprise clients: presales technical calls, custom architecture and platform adaptation for large accounts
