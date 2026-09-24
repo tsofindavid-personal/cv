@@ -71,7 +71,6 @@ Enterprise Salesforce DevOps platform (B2B SaaS) — Git-like release and change
 **Stack:** Node.js, NestJS, TypeScript, PostgreSQL, MySQL, AWS (Lambda, ECS, S3, RDS), RabbitMQ, MCP, Docker, Kubernetes, Terraform, Prometheus, Grafana
 
 ### Independent Consulting & Product Development — Founder / Engineer
-*[dates] | Remote (own entity)*
 
 AI systems and LLM-based automation for clients and own products.
 
